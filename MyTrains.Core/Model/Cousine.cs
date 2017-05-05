@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyTrains.Core.Model
 {
-    class Cousine
+    public class Cousine : BaseModel
     {
+        public int Id { get; set; }
+        public string  CousineName { get; set; }
     }
 }
